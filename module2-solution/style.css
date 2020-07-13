@@ -18,7 +18,7 @@ h1{
     
     float: left;
     width: 30%;
-    background-color: rgb(64, 252, 64);
+    background-color: rgb(122, 124, 122);
     padding: 30px 10px 10px 10px ;
     border: solid 2px;
     border-color: black;    
@@ -47,18 +47,19 @@ h1{
 }
 
 #title2{
-    text-align: center;
-    border-color: black;
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-    width: 30%;
+    text-align: center  ;
+    color: white;
     
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 30%;
+    ;
     font-size: 20px;
     
     position: absolute;
     top: 0;
     right: 0;
-    background:rgb(243, 19, 168);
+    background:rgb(160, 29, 29);
 }
 
 #title3{
@@ -72,7 +73,7 @@ h1{
     position: absolute;
     top: 0;
     right: 0;
-    background:rgb(233, 236, 16);
+    background:rgb(236, 238, 118);
     
 
 }
@@ -84,7 +85,7 @@ h1{
     
         float: left;
         width: 46%;
-        background-color: rgb(108, 110, 240);
+        
         padding: 30px 10px 10px 10px ;
         border: solid 2px;
         border-color: black;    
@@ -97,7 +98,7 @@ h1{
     
         height: 100px ;
         width: 95%;
-        background-color: rgb(240, 178, 107);
+        
         padding: 30px 10px 10px 10px ;
         border: solid 2px;
         border-color: black;    
@@ -115,7 +116,7 @@ h1{
         height: 100px ;
         float: left;
         width: 95%;
-        background-color: gray;;
+        
         padding: 30px 10px 10px 10px ;
         border: solid 2px;
         border-color: black;    
