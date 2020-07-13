@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-bottom: 50px;
+    
+}
+
+
+
+.div1 , .div2 , .div3 {
+    
+    float: left;
+    width: 30%;
+    background-color: rgb(64, 252, 64);
+    padding: 30px 10px 10px 10px ;
+    border: solid 2px;
+    border-color: black;    
+    margin: 10px 10px 10px 20px; 
+    position: relative;
+    height: 150px ;
+
+}
+
+
+
+#title1{
+    text-align: center;
+    border-color: black;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    width: 30%;
+    font-size: 20px;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: pink;
+    
+
+}
+
+#title2{
+    text-align: center;
+    border-color: black;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    width: 30%;
+    
+    font-size: 20px;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:rgb(243, 19, 168);
+}
+
+#title3{
+    text-align: center;
+    border-color: black;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    width: 30%;
+    font-size: 20px;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:rgb(233, 236, 16);
+    
+
+}
+
+
+@media  (min-width: 768px) and (max-width: 991px ) {
+    
+    .div1 , .div2 {
+    
+        float: left;
+        width: 46%;
+        background-color: rgb(108, 110, 240);
+        padding: 30px 10px 10px 10px ;
+        border: solid 2px;
+        border-color: black;    
+        margin: 10px 10px 10px 10px ; 
+        position: relative;
+        
+    
+    }
+    .div3 {
+    
+        height: 100px ;
+        width: 95%;
+        background-color: rgb(240, 178, 107);
+        padding: 30px 10px 10px 10px ;
+        border: solid 2px;
+        border-color: black;    
+        margin: 10px 10px 10px 10px; 
+        position: relative;
+        
+    
+    }
+
+}
+
+@media   (max-width: 767px ) {
+    
+    .div1 , .div2 , .div3 {
+        height: 100px ;
+        float: left;
+        width: 95%;
+        background-color: gray;;
+        padding: 30px 10px 10px 10px ;
+        border: solid 2px;
+        border-color: black;    
+        margin: 20px 20px ; 
+        position: relative;
+        
+    
+    }
+    
+
+}
